@@ -1,0 +1,10 @@
+🔍 Phishing Indicators in This Email
+🔢 #	🕵️ Indicator Category	🚩 Suspicious Detail / Reason
+1	Spoofed Sender Email	security@paypa1.com — Looks like "paypal.com" but contains number 1 instead of letter l, a classic phishing trick.
+2	Suspicious Domain Name	URL: http://paypal-verificationcenter.com/login — Not an official PayPal domain. Real PayPal URLs use paypal.com.
+3	Urgency / Fear Tactics	The message says "verify within 24 hours or get suspended" — Tries to pressure you into quick action.
+4	Mismatched Display Link	The link says “Click here to verify your account” but actually points to a fake domain (hover shows it).
+5	Malicious Attachment	SecurityUpdate.pdf.exe — A double extension is a common trick to disguise executable malware as a document.
+6	Return Path Mismatch	bounces@mailer.paypa1-alerts.ru — The email is routed from a non-PayPal foreign domain (e.g., Russia).
+7	Grammar / Typos	Slightly off language: “restore full access” and “verify your identity” used out of context.
+8	No Personalization	Uses "Dear Customer" instead of your name — Legitimate services typically address users by name.
